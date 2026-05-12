@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build outputs
+dist/
+**/dist/
+unpackage/
+.temp/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs / coverage
+logs/
+*.log
+coverage/
+
+# editor / local tooling
+.idea/
+.vscode/
+.claude/
+.playwright-mcp/
+
+# OS
+.DS_Store
+Thumbs.db

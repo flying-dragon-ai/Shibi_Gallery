@@ -1,0 +1,16 @@
+{
+  "name": "师比画廊",
+  "appid": "",
+  "description": "青年艺术家原作交易与版权授权居间小程序",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false,
+      "es6": true
+    },
+    "usingComponents": true
+  },
+  "vueVersion": "3"
+}
