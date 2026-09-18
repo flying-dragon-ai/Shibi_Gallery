@@ -1,4 +1,10 @@
 # Shibi Gallery
+[![Vue](https://img.shields.io/badge/Vue-3-42b883?logo=vue.js&logoColor=white)](https://vuejs.org/)
+![uni-app](https://img.shields.io/badge/uni--app-WeChat%20Mini%20Program-2b9939)
+![API](https://img.shields.io/badge/API-Koa%20%2B%20PostgreSQL-333)
+![Tooling](https://img.shields.io/badge/Tooling-pnpm%20%2B%20Vite%20%2B%20Vitest-f6920d)
+
+> **师比画廊** - WeChat Mini Program MVP for young artists: artwork trading, copyright licensing, online curation, collection, orders, certificates & admin dashboard. 面向青年艺术家的原作交易与版权授权居间小程序。
 
 Shibi Gallery（师比画廊）是一个面向青年艺术家的原作交易与版权授权居间微信小程序 MVP。项目覆盖艺术家展示、作品交易、线上策展、收藏、订单、鉴证证书、运营后台和基础数据统计。
 
@@ -231,3 +237,7 @@ pnpm lint
 - The Mini Program `appid` is empty by default. Configure it in `apps/mobile/src/manifest.json` before real-device or production use.
 - Sass legacy JS API warnings may appear during uni-app compilation. They are warnings and do not block local development.
 - On Node 24, the API uses `NODE_OPTIONS=--no-experimental-require-module` through `cross-env` to avoid dependency-chain compatibility issues. Node 20/22 LTS is recommended for a more stable development environment.
+
+---
+
+**Keywords** - WeChat Mini Program, 微信小程序, uni-app, Vue 3, Koa, PostgreSQL, JWT, Zod, pnpm monorepo, art marketplace, artwork trading, copyright licensing, digital curation, 师比画廊
